@@ -36,6 +36,10 @@
 /dev/jiiov_fp                                                                                    u:object_r:fingerprint_device:s0
 /dev/silead_fp                                                                                   u:object_r:fingerprint_device:s0
 
+# Perf
+/vendor/lib(64)?/vendor\.qti\.hardware\.perf@1\.0\.so    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/vendor\.qti\.hardware\.perf2-V1-ndk\.so    u:object_r:same_process_hal_file:s0
+
 # Init
 /(odm|vendor/odm)/bin/init\.oplus\.sh          u:object_r:vendor_qti_init_shell_exec:s0
 /(odm|vendor/odm)/bin/init\.oplus\.wifi\.sh    u:object_r:vendor_qti_init_shell_exec:s0

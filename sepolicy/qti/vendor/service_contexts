@@ -38,3 +38,7 @@ vendor.oplus.hardware.radioex.voice.IOplusRadioExVoice/slot2            u:object
 
 # Sensor
 vendor.oplus.hardware.oplusSensor.ISensorFeature/default                u:object_r:hal_oplusSensor_aidl_service:s0
+
+
+# Perf
+vendor.qti.hardware.perf2.IPerf/default        u:object_r:vendor_hal_perf2_service:s0
